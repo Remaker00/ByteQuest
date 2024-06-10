@@ -96,7 +96,7 @@ function index() {
                     <img src='bookmark.svg' className='book-mark' />
                   </div>
                   <div className='product-detail'>
-                    <h2 className='product-title'>{product.title}</h2>
+                    <h2 className='product-title'>{product.category}</h2>
                     <div className='product-add'>
                       <div className='price'>
                         <p className='product-price'>₹{product.price}</p>
